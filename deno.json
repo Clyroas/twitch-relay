@@ -14,8 +14,8 @@
         "jsx": "preserve"
     },
     "tasks": {
-        "dev": "deno run -A --unstable-detect-cjs npm:next@latest dev",
-        "build": "deno run -A --unstable-detect-cjs npm:next@latest build",
-        "start": "deno run -A --unstable-detect-cjs npm:next@latest start"
+        "dev": "deno run -A --unstable-detect-cjs npm:next@^16.3.6 dev",
+        "build": "deno run -A --unstable-detect-cjs npm:next@^16.3.6 build",
+        "start": "deno run -A --unstable-detect-cjs npm:next@^16.3.6 start"
     }
 }
